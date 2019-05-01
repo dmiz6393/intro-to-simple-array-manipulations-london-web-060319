@@ -30,7 +30,7 @@ end
 
 def shift_with_args(array)
 array=["happy","smile","fun"]
-array.shift(0,1)
+array.shift(2)
 end 
 
 def using_uniq(array)
