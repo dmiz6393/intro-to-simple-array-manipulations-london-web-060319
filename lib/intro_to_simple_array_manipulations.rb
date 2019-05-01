@@ -25,7 +25,7 @@ end
 
 def pop_with_args(array)
 array=["happy","smile","fun"]
-array.pop(1,2)
+array.pop(2)
 end 
 
 def shift_with_args(array)
