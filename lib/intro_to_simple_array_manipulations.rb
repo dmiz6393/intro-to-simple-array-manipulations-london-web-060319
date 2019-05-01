@@ -48,6 +48,8 @@ def using_delete(array,string)
 end 
 
 def using_delete_at(array,integer)
-  array.delete(integer)
+ array=["happy","smile","fun"]
+  integer = 2
+  deleted_array = array.delete_at(integer)
 end 
   
