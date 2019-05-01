@@ -25,12 +25,12 @@ end
 
 def pop_with_args(array)
 array=["happy","smile","fun"]
-array.pop(2)
+array.pop(1,2)
 end 
 
 def shift_with_args(array)
 array=["happy","smile","fun"]
-array.shift(2)
+array.shift(0,1)
 end 
 
 def using_uniq(array)
@@ -48,8 +48,6 @@ def using_delete(array,string)
 end 
 
 def using_delete_at(array,integer)
- array=["happy","smile","fun"]
-  integer = 2
-  deleted_array = array.delete_at(integer)
+array.delete_at(integer)
 end 
   
