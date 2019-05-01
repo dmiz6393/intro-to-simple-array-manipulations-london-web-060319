@@ -29,18 +29,15 @@ array.pop(2)
 end 
 
 def shift_with_args(array)
-array=["happy","smile","fun"]
 array.shift(2)
 end 
 
 def using_uniq(array)
-  array=["happy","smile","fun"]
-  new array= array.uniq
+ array.uniq
 end 
 
 def using_flatten(array)
-  array=["happy","smile","fun"]
-  new array= array.flatten 
+array.flatten 
 end 
 
 def using_delete(array,string)
