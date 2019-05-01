@@ -23,3 +23,33 @@ def using_insert(array,element)
   array.insert(4,element)
 end
 
+def pop_with_args(array)
+array=["happy","smile","fun"]
+array.pop(2)
+end 
+
+def shift_with_args(array)
+array=["happy","smile","fun"]
+array.shift(2)
+end 
+
+def using_uniq(array)
+  array=["happy","smile","fun"]
+  new array= array.uniq
+end 
+
+def using_flatten(array)
+  array=["happy","smile","fun"]
+  new array= array.flatten 
+end 
+
+def using_delete(array,string)
+  array.delete(string)
+end 
+
+def using_delete_at(array,integer)
+ array=["happy","smile","fun"]
+  integer = 2
+  deleted_array = array.delete_at(integer)
+end 
+  
