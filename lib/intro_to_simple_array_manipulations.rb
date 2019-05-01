@@ -24,7 +24,6 @@ def using_insert(array,element)
 end
 
 def pop_with_args(array)
-array=["happy","smile","fun"]
 array.pop(2)
 end 
 
