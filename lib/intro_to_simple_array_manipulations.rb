@@ -34,7 +34,8 @@ array.shift(2)
 end 
 
 def using_uniq(array)
-  array.uniq
+  array=["happy","smile","fun"]
+  new array= array.uniq
 end 
 
 def using_flatten(array)
